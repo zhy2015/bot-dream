@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Project Specific
+memory/AHA_MOMENTS.md
+memory/boredom_index.json
+# Keep distllled but ignore contents if desired? No, we probably want to keep sample data but ignore user data.
+# For now, let's ignore the generated state files but keep the structure if possible.
